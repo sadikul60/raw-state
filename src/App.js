@@ -1,11 +1,12 @@
 import './App.css';
-import RawState from './components/RawState/RawState';
+import Parent from './components/RawState/Parent';
+
 
 function App() {
   return (
     <div className="App">
       <h1>Hello Raw State</h1>
-      <RawState />
+      <Parent />
     </div>
   );
 }
