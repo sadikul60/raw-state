@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { CounterContext } from '../../App';
 
-const Child = ({count, setCount}) => {
+const Child = () => {
+    const {count, setCount} = useContext(CounterContext);
+
     return (
         <div className="mt-12">
             <h1 className='text-3xl text-center'>Child</h1>
